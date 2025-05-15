@@ -1,0 +1,89 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+fieldset{
+  border: none;
+}
+.form__fieldset_radio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__radio-inputs-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start center;
+  flex-wrap: wrap;
+  width: 110px;  
+  margin-left: 20px;  
+}
+#inputSelect{
+  margin-left: 20px;
+}
+.table__alert{
+  text-align: center;
+}
+
+.table__alert_none{
+  display: none;
+}
+table{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.th{
+  background-color: #60ad15;  
+}
+
+.th__name{
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+}
+.th__area{
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#nameArrow{
+  color: yellow;
+}
+#area{
+  color: yellow;
+}
+
+.table__arrow-up::after{
+  content: "\2191";
+  cursor: pointer
+}
+.table__arrow-down::after{
+  content: "\2193";
+  cursor: pointer
+}
+
+.table__arrow-doubleside::after{
+  content: "\2195";
+  cursor: pointer
+}
+
+tbody:nth-child(even){
+  background-color: #ececec;
+}
+tbody:first-child{
+  min-height: 50px;
+  color: #fff;
+}
+.row:hover{
+  background-color: #aeaeae;
+}
+/* write your styles here */
